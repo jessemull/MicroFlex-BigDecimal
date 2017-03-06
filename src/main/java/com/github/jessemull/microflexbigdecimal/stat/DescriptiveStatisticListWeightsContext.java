@@ -146,33 +146,6 @@ import com.github.jessemull.microflexbigdecimal.plate.WellSet;
  *    </tr>
  * </table>
  * 
- * MicroFlex currently supports the following weighted statistical operations:
- * 
- * <table cellspacing="5px" style="text-align:left; margin: 20px;">
- *    <th><div style="border-bottom: 1px solid black; padding-bottom: 5px;">Descriptive Statistics<div></th>
- *    <tr>
- *       <td>Mean</td>
- *    </tr>
- *    <tr>
- *       <td>Geometric Mean</td>
- *    </tr>
- *    <tr>
- *       <td>Quadratic Mean</td>
- *    </tr>
- *    <tr>
- *       <td>Sum</td>
- *    </tr>
- *    <tr>
- *       <td>Sum Squared</td>
- *    </tr>
- *    <tr>
- *       <td>Population Variance</td>
- *    </tr>
- *    <tr>
- *       <td>Sample Variance</td>
- *    </tr>
- * </table>
- * 
  * @author Jesse L. Mull
  * @update Updated Oct 18, 2016
  * @address http://www.jessemull.com

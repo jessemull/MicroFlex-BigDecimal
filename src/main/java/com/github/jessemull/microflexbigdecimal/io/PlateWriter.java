@@ -170,7 +170,7 @@ import com.github.jessemull.microflexbigdecimal.plate.WellSet;
  *          <pre>
  *  {
  *   "results" : [ {
- *     "type" : "Double",
+ *     "type" : "BigDecimal",
  *     "label" : "Example Result",
  *     "size" : 10,
  *     "wells" : {
@@ -195,7 +195,7 @@ import com.github.jessemull.microflexbigdecimal.plate.WellSet;
  *  &lt?xml version=&quot1.0&quot encoding=&quotUTF-8&quot standalone=&quotyes&quot?&gt
  *  &ltresults&gt
  *     &ltresult&gt
- *         &lttype&gtDouble&lt/type&gt
+ *         &lttype&gtBigDecimal&lt/type&gt
  *         &ltlabel&gtExample Result&lt/label&gt
  *         &ltsize&gt3&lt/size&gt
  *         &ltwells&gt
@@ -223,7 +223,7 @@ import com.github.jessemull.microflexbigdecimal.plate.WellSet;
  *          <pre>
  *  {
  *    "wells" : [ {
- *      "type" : "Double",
+ *      "type" : "BigDecimal",
  *      "index" : "F8",
  *      "size" : 24,
  *      "values" : [ 15.11, 28.82, 52.54 ]
@@ -236,7 +236,7 @@ import com.github.jessemull.microflexbigdecimal.plate.WellSet;
  *          <pre>
  *  {
  *    "wellsets" : [ {
- *      "type" : "Double",
+ *      "type" : "BigDecimal",
  *      "label" : "Example Well Set",
  *      "size" : 1,
  *      "wells" : [ {
@@ -252,7 +252,7 @@ import com.github.jessemull.microflexbigdecimal.plate.WellSet;
  *          <pre>
  *  {
  *    "plates" : [ {
- *      "type" : "Double",
+ *      "type" : "BigDecimal",
  *      "label" : "Example Plate",
  *      "descriptor" : "96-Well",
  *      "rows" : 8,
@@ -276,13 +276,13 @@ import com.github.jessemull.microflexbigdecimal.plate.WellSet;
  *          <pre>
  *  {
  *    "stacks" : [ {
- *      "type" : "Double",
+ *      "type" : "BigDecimal",
  *      "label" : "Example Stack",
  *      "rows" : 8,
  *      "columns" : 12,
  *      "size" : 1,
  *      "plates" : [ {
- *        "type" : "Double",
+ *        "type" : "BigDecimal",
  *        "label" : "Example Plate",
  *        "descriptor" : "96-Well",
  *        "rows" : 8,
@@ -309,7 +309,7 @@ import com.github.jessemull.microflexbigdecimal.plate.WellSet;
  *          <pre>
  *  &ltwells&gt
  *     &ltwell&gt
- *         &lttype&gtDouble&lt/type&gt
+ *         &lttype&gtBigDecimal&lt/type&gt
  *         &ltindex&gtH8&lt/index&gt
  *         &ltsize&gt24&lt/size&gt
  *         &ltvalues&gt
@@ -326,7 +326,7 @@ import com.github.jessemull.microflexbigdecimal.plate.WellSet;
  *          <pre>
  *  &ltwellsets&gt
  *     &ltwellset&gt
- *         &lttype&gtDouble&lt/type&gt
+ *         &lttype&gtBigDecimal&lt/type&gt
  *         &ltlabel&gtExample Well Set&lt/label&gt
  *         &ltsize&gt1&lt/size&gt
  *         &ltwells&gt
@@ -348,7 +348,7 @@ import com.github.jessemull.microflexbigdecimal.plate.WellSet;
  *          <pre>
  *  &ltplates&gt
  *     &ltplate&gt
- *         &lttype&gtDouble&lt/type&gt
+ *         &lttype&gtBigDecimal&lt/type&gt
  *         &ltlabel&gtExample Plate&lt/label&gt
  *         &ltdescriptor&gt96-Well&lt/descriptor&gt
  *         &ltrows&gt8&lt/rows&gt
@@ -384,14 +384,14 @@ import com.github.jessemull.microflexbigdecimal.plate.WellSet;
  *          <pre>
  *  &ltstacks&gt
  *     &ltstack&gt
- *         &lttype&gtDouble&lt/type&gt
+ *         &lttype&gtBigDecimal&lt/type&gt
  *         &ltlabel&gtExample Stack&lt/label&gt
  *         &ltrows&gt8&lt/rows&gt
  *         &ltcolumns&gt12&lt/columns&gt
  *         &ltsize&gt1&lt/size&gt
  *         &ltplates&gt
  *             &ltplate&gt
- *                 &lttype&gtDouble&lt/type&gt
+ *                 &lttype&gtBigDecimal&lt/type&gt
  *                 &ltlabel&gtExample Plate&lt/label&gt
  *                 &ltdescriptor&gt96-Well&lt/descriptor&gt
  *                 &ltrows&gt8&lt/rows&gt
