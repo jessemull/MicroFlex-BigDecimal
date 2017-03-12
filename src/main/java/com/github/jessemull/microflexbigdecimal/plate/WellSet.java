@@ -1563,7 +1563,21 @@ public class WellSet implements Iterable<Well>, Comparable<WellSet> {
             return -1;
         }
         
+        Iterator<Well> iter1 = this.iterator();
+        Iterator<Well> iter2 = set.iterator();
         
+        while(iter1.hasNext() && iter2.hasNext()) {
+        	
+        	Well well1 = iter1.next();
+        	Well well2 = iter2.next();
+        	
+        	int comparison = well1.compareTo(well2);
+        	
+        	if(comparison != 0) {
+        		return comparison;
+        	}
+        	
+        }
         
         return 0;
 	}
